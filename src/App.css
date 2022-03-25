@@ -1,0 +1,49 @@
+body{
+  background-color: rgb(247, 247, 247);
+}
+#topbar{
+  background-color: rgb(190, 42, 16);
+}
+
+#viewrepo{
+  margin-top: 60px;
+
+}
+
+#homepage{
+  margin-top: 60px;
+}
+#introduction{
+  margin-top: 120px;
+}
+
+#logincard{
+  margin-top: 120px;
+  border-radius: 30px;
+
+}
+
+#register{
+  margin-top: 120px;
+  border-radius: 15px;
+}
+
+#editversion{
+  margin-top: 70px;
+}
+
+#cards{
+
+
+ border-left: 10px solid rgb(179, 22, 126);
+
+}
+
+#loginarea{
+ border-left: 1px solid rgb(104, 103, 103);
+ height: 550px;
+}
+
+#viewhistory{
+  border-left: 10px solid blue;
+}
