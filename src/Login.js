@@ -8,6 +8,15 @@ import { Link } from "react-router-dom";
 export default function  Login(){
   const navigate = useNavigate();
     const [reply,setReply] = useState("")
+    
+    
+ const [emails,setemails] = useState({email:"hkathiresan@gmail.com", password:"kathir"})
+ 
+ let setlogin = ()=>{
+   formik.setValues(emails)
+  }
+ 
+ 
     const formik = useFormik({
         initialValues: {
           email: '',
@@ -65,6 +74,7 @@ return(
   <button type="submit" class="btn btn-primary">Login</button>&nbsp;
    <Link to="/register"><small>New User?</small></Link>
 </form>
+   <button className="btn btn-primary" onClick={()=>{setlogin()}}>Credentials</button>
 </div>
      
   </div>
