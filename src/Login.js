@@ -74,7 +74,7 @@ return(
   <button type="submit" class="btn btn-primary">Login</button>&nbsp;
    <Link to="/register"><small>New User?</small></Link>
 </form>
-   <button className="btn btn-primary" onClick={()=>{setlogin()}}>Credentials</button>
+  <div className="d-flex justify-content-end p-2"><button className="btn btn-primary" onClick={()=>{setlogin()}}>Credentials</button></div>
 </div>
      
   </div>
